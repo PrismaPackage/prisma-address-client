@@ -1,4 +1,6 @@
 {
+    "name": "rentalhost/prisma-address-client",
+    "description": "The prisma-address-client uses the Rentalhost Webservice to retrieve Brazilian CEP informations.",
     "type": "project",
     "require": {
         "php": ">=5.5.9",
@@ -14,5 +16,12 @@
         "psr-4": {
             "Rentalhost\\PrismaAddress\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "David Rodrigues",
+            "email": "david.rodrigues@rentalhost.net"
+        }
+    ],
+    "license": "MIT"
 }
